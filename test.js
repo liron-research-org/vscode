@@ -11,7 +11,7 @@ function bad2(userInput) {
 }
 
 function bad3(userInput) {
-  const name = '<div>' + userInput + '</div>';
+  const name = '<div>' + userInput + '</div>'; 
 // ruleid: insecure-document-method
   document.write(name);
 }
